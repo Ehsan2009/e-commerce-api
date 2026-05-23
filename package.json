@@ -1,0 +1,20 @@
+{
+  "name": "e_commerce_api",
+  "version": "1.0.0",
+  "description": "[E-Commerce API Render URL](https://node-course-e-commerce.onrender.com/)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^9.6.2",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
+  }
+}
