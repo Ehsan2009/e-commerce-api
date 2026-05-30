@@ -99,20 +99,20 @@
 
 #### User Routes Structure
 
-- [] add userController file
-- [] export (getAllUsers,getSingleUser,showCurrentUser,updateUser,updateUserPassword) functions
-- [] res.send('some string value')
-- [] setup userRoutes file
-- [] import all controllers
-- [] setup just one route - router.route('/').get(getAllUsers);
-- [] import userRoutes as userRouter in the app.js
-- [] setup app.use('/api/v1/users', userRouter)
+- [X] add userController file
+- [X] export (getAllUsers,getSingleUser,showCurrentUser,updateUser,updateUserPassword) functions
+- [X] res.send('some string value')
+- [X] setup userRoutes file
+- [X] import all controllers
+- [X] setup just one route - router.route('/').get(getAllUsers);
+- [X] import userRoutes as userRouter in the app.js
+- [X] setup app.use('/api/v1/users', userRouter)
 
 #### GetAllUsers and GetSingleUser
 
-- [] Get all users where role is 'user' and remove password
-- [] Get Single User where id matches id param and remove password
-- [] If no user 404
+- [X] Get all users where role is 'user' and remove password
+- [X] Get Single User where id matches id param and remove password
+- [X] If no user 404
 
 #### Authenticate User Setup
 
