@@ -220,59 +220,59 @@
 
 #### Review Model
 
-- [] create Review.js in models folder
-- [] create Schema
-- [] rating : {type:Number}
-- [] title: {type:String}
-- [] comment: {type:String}
-- [] user
-- [] product
-- [] set timestamps
-- [] export Review model
+- [X] create Review.js in models folder
+- [X] create Schema
+- [X] rating : {type:Number}
+- [X] title: {type:String}
+- [X] comment: {type:String}
+- [X] user
+- [X] product
+- [X] set timestamps
+- [X] export Review model
 
 #### Review Structure
 
-- [] add reviewController file in controllers
-- [] export (createReview, getAllReviews, getSingleReview, updateReview, deleteReview) functions
-- [] res.send('function name')
-- [] setup reviewRoutes file in routes
-- [] import all controllers
-- [] only getAllReviews and getSingleReview accessible to public
-- [] rest only to users (setup middleware)
-- [] typical REST setup
-- [] import reviewRoutes as reviewRouter in the app.js
-- [] setup app.use('/api/v1/reviews', reviewRouter)
+- [X] add reviewController file in controllers
+- [X] export (createReview, getAllReviews, getSingleReview, updateReview, deleteReview) functions
+- [X] res.send('function name')
+- [X] setup reviewRoutes file in routes
+- [Z] import all controllers
+- [X] only getAllReviews and getSingleReview accessible to public
+- [X] rest only to users (setup middleware)
+- [X] typical REST setup
+- [X] import reviewRoutes as reviewRouter in the app.js
+- [X] setup app.use('/api/v1/reviews', reviewRouter)
 
 #### Create Review
 
-- [] check for product in the req.body
-- [] attach user property (set it equal to req.user.userId) on to req.body
-- [] create review
-- [] don't test yet
+- [X] check for product in the req.body
+- [X] attach user property (set it equal to req.user.userId) on to req.body
+- [X] create review
+- [X] don't test yet
 
 #### Get All Reviews and Get Single Review
 
-- [] both public routes, typical setup
+- [X] both public routes, typical setup
 
 #### Delete Review
 
-- [] get id from req.params
-- [] check if review exists
-- [] if no review, 404
-- [] check permissions (req.user, review.user)
-- [] use await review.remove()
-- [] send back 200
+- [X] get id from req.params
+- [X] check if review exists
+- [X] if no review, 404
+- [X] check permissions (req.user, review.user)
+- [X] use await review.remove()
+- [X] send back 200
 
 #### Update Review
 
-- [] get id from req.params
-- [] get {rating, title comment} from req.body
-- [] check if review exists
-- [] if no review, 404
-- [] check permissions
-- [] set review properties equal to rating, title, comment
-- [] use await review.save()
-- [] send back 200
+- [X] get id from req.params
+- [X] get {rating, title comment} from req.body
+- [X] check if review exists
+- [X] if no review, 404
+- [X] check permissions
+- [X] set review properties equal to rating, title, comment
+- [X] use await review.save()
+- [X] send back 200
 
 #### Populate
 

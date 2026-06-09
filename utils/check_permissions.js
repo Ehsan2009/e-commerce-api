@@ -1,6 +1,6 @@
 const CustomError = require("../errors")
 
-const checkPermissins = (requestUser, resourceUserId) => {
+const checkPermissions = (requestUser, resourceUserId) => {
     // console.log(requestUser);
     // console.log(resourceUserId);
     // console.log(typeof resourceUserId)
@@ -10,4 +10,4 @@ const checkPermissins = (requestUser, resourceUserId) => {
     throw new CustomError.UnauthorizedError("Not authorized to access this route")
 }
 
-module.exports = checkPermissins
+module.exports = checkPermissions
